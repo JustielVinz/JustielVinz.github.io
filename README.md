@@ -1,11 +1,11 @@
-# Hi there, I'm Justiel Vinz C Velasco👋
+# Hi there, I'm Justiel Vinz C. Velasco 👋
 
 Software Engineer & Educator passionate about building scalable web applications, robust backends, and distributed systems.
 
-- 🌱 I’m currently exploring **AI Automation**
+- 🌱 I’m currently exploring **AI Automation & Agentic Workflows**
 - 💬 Ask me about **Go, Next.js, PostgreSQL, or System Design**
 - 📫 Reach me at: **coe.velasco.justielvinz@gmail.com**
-- 🔗 Connect with me on [LinkedIn](https://linkedin.com/in/[your-handle])
+- 🔗 Connect with me on [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN-HANDLE)
 
 ---
 
@@ -24,11 +24,15 @@ Software Engineer & Educator passionate about building scalable web applications
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-#### Databases & Infrastructure
+#### Databases & Cloud / Infrastructure
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?&style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+#### Automation & Tools
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
@@ -36,14 +40,14 @@ Software Engineer & Educator passionate about building scalable web applications
 
 | Project | Description | Tech Stack | Links |
 | :--- | :--- | :--- | :--- |
-| **Project One** | Scalable microservice handling spatial coordinates, auth, and automated queues. | Go, PostgreSQL, Redis | [Source](https://github.com/[YOUR_GITHUB_USERNAME]/project-1) · [Live Demo](https://demo.example.com) |
-| **Project Two** | Modern full-stack platform featuring real-time data sync and customizable dashboards. | Next.js, Tailwind, Supabase | [Source](https://github.com/[YOUR_GITHUB_USERNAME]/project-2) · [Live Demo](https://demo.example.com) |
+| **Project One** | Scalable microservice handling spatial coordinates, authentication, and queues. | Go, PostgreSQL, Redis | [Source](https://github.com/YOUR_GITHUB_USERNAME/project-1) · [Live Demo](https://demo.example.com) |
+| **Project Two** | Full-stack platform featuring dynamic state flows, real-time sync, and dashboards. | Next.js, TypeScript, Tailwind | [Source](https://github.com/YOUR_GITHUB_USERNAME/project-2) · [Live Demo](https://demo.example.com) |
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_USERNAME]&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USERNAME]&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Vinz&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinz&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
