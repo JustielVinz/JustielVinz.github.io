@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justiel Vinz C. Velasco | Curriculum Vitae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card-bg: #f8fafc;
+      --text: #334155;
+      --heading: #0f172a;
+      --primary: #2563eb;
+      --border: #e2e8f0;
+      --subtext: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2.5rem 1rem;
+    }
+    .cv-container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 2.5rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: var(--heading);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .title {
+      font-size: 1.15rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      font-size: 0.9rem;
+      color: var(--subtext);
+    }
+    .contact-info a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact-info a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--heading);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    .item {
+      margin-bottom: 1.25rem;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+    .item-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: var(--heading);
+    }
+    .item-date {
+      font-size: 0.85rem;
+      color: var(--subtext);
+      font-weight: 500;
+    }
+    .item-subtitle {
+      font-size: 0.95rem;
+      color: var(--primary);
+      font-weight: 500;
+      margin-bottom: 0.4rem;
+    }
+    ul {
+      list-style-position: inside;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    li {
+      margin-bottom: 0.35rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      row-gap: 0.5rem;
+      font-size: 0.95rem;
+    }
+    .skill-cat {
+      font-weight: 600;
+      color: var(--heading);
+    }
+    .skill-list {
+      color: var(--text);
+    }
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 1rem;
+    }
+    .print-btn {
+      background: var(--heading);
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    @media print {
+      body { padding: 0; background: #fff; }
+      .cv-container { border: none; box-shadow: none; padding: 0; }
+      .actions { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="actions">
+      <button class="print-btn" onclick="window.print()">🖨️ Save as PDF / Print</button>
+    </div>
+
+    <header>
+      <h1>Justiel Vinz C. Velasco</h1>
+      <div class="title">Software Engineer & Educator</div>
+      <div class="contact-info">
+        <span>✉️ <a href="mailto:coe.velasco.justielvinz@gmail.com">coe.velasco.justielvinz@gmail.com</a></span>
+        <span>🔗 <a href="https://github.com/JustielVinz" target="_blank">github.com/JustielVinz</a></span>
+        <span>🌐 <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn Profile</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p>Software Engineer and College Educator with a focus on scalable backend microservices, modern full-stack web applications, and system design. Experienced in building production systems using Go, Next.js, and PostgreSQL, alongside mentoring aspiring engineers.</p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-cat">Languages:</div>
+        <div class="skill-list">Go, TypeScript, JavaScript, Python, C++, SQL</div>
+
+        <div class="skill-cat">Frontend:</div>
+        <div class="skill-list">Next.js, React, Tailwind CSS, Flutter</div>
+
+        <div class="skill-cat">Backend / DB:</div>
+        <div class="skill-list">PostgreSQL, Redis, REST APIs, Microservices</div>
+
+        <div class="skill-cat">Tools & Automation:</div>
+        <div class="skill-list">Docker, Git, n8n, Linux, Postman</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">College Educator & Lecturer</span>
+          <span class="item-date">Present</span>
+        </div>
+        <div class="item-subtitle">Computer Science & Engineering</div>
+        <ul>
+          <li>Delivered university-level courses covering Data Structures, Algorithms, Software Design, and Backend Development.</li>
+          <li>Authored technical modules, hands-on programming labs, and automated grading rubrics.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">Software Engineer</span>
+          <span class="item-date">Recent</span>
+        </div>
+        <div class="item-subtitle">Full-Stack & Backend Systems</div>
+        <ul>
+          <li>Engineered resilient backend services and REST APIs utilizing Go, Next.js, and PostgreSQL.</li>
+          <li>Architected spatial query models and data caching strategies using Redis.</li>
+          <li>Integrated multi-step authentication mechanisms, OTP verification, and background worker queues.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">Master of Science in Computer Engineering (MSCpE)</span>
+          <span class="item-date">Polytechnic University of the Philippines</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="item">
+        <div class="item-header">
+          <span class="item-title">Distributed Backend Microservice</span>
+          <span class="item-date"><a href="https://github.com/JustielVinz" target="_blank">View Repo</a></span>
+        </div>
+        <ul>
+          <li>Implemented high-concurrency API endpoints with spatial data filtering using Go and PostgreSQL.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
